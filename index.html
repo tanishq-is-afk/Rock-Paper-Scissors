@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rock Paper Scissors</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="game-container">
+
+
+    <div class="title-image">
+      <img src="res/title.png">
+    </div>
+
+
+    <div class="round-box">
+      ROUND <span id="round-number">1</span>
+    </div>
+
+ 
+    <div class="score-board">
+
+      <div class="score-box">
+        <h2>PLAYER</h2>
+        <div class="score" id="player-score">0</div>
+      </div>
+
+      <div class="score-box">
+        <h2>COMPUTER</h2>
+        <div class="score" id="computer-score">0</div>
+      </div>
+
+    </div>
+
+   
+    <div class="battle-area">
+
+      <div class="choice-display">
+        <img src="res/question_mark_blue.png" id="player-choice">
+      </div>
+
+      <div class="vs">
+        <img src="res/vs.png" id="action_screen">
+      </div>
+
+      <div class="choice-display">
+        <img src="res/question_mark_red.png" id="computer-choice">
+      </div>
+
+    </div>
+
+    <div class="result" id="result-text">
+      Choose Your Move
+    </div>
+
+    <div class="action-buttons">
+
+      <button id="play-btn">
+        <img src="res/play.png">
+      </button>
+
+      <button id="next-round">
+        <img src="res/next_round.png">
+      </button>
+
+      <button id="replay-btn">
+        <img src="res/replay.png">
+      </button>
+
+    </div>
+
+   
+    <div class="buttons">
+
+      <button class="choice-btn" id="rock-btn">
+        <img src="res/rock.png">
+      </button>
+
+      <button class="choice-btn" id="paper-btn">
+        <img src="res/paper.png">
+      </button>
+
+      <button class="choice-btn" id="scissor-btn">
+        <img src="res/scissors.png">
+      </button>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
