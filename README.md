@@ -27,7 +27,7 @@ Safari
 
 👨‍💻Installation
 Clone the repository:
-git clone https://github.com/your-username/rock-paper-scissors.git
+git clone https://github.com/tanishq-is-afk/Rock-Paper-Scissors.git
 Navigate to the project folder:
 cd rock-paper-scissors
 Open index.html in your browser.
